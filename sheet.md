@@ -1,5 +1,5 @@
 # Index documents
-`PUT` the doc into the index (name) and if the index doesn't exist, then it will be created. 
+`PUT` the doc into the index (name) and if the index doesn't exist, then it will be created
 ```
 PUT /<index_name>/_doc/1
 {
@@ -47,7 +47,7 @@ GET /<index>/_search
   "query": { "match_phrase": { "<field>": "<phrase>" } }
 }
 ```
-`GET` docs that are required (must match), desirable (should match), or undesirable (must not match).
+`GET` docs that are required (must match), desirable (should match), or undesirable (must not match)
 ```
 GET /<index>/_search
 {
